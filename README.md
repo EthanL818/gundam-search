@@ -14,4 +14,4 @@ Try to be as specific as possible when using the search bar. For example, if you
 
 ## Packages Used
 
-`PyQt5` was used for the GUI, `requests`, `beautifulsoup4`, and `selenium` were used for the webscraping, and `thefuzz` was used for fuzzy string comparison logic.
+`PyQt5` was used for the GUI, `requests`, `beautifulsoup4`, and `selenium` were used for the webscraping, and `thefuzz` was used for fuzzy string comparison logic. Additonally, `pyinstaller` was used to convert the Python program into a single executable file.
