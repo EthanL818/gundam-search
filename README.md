@@ -1,7 +1,7 @@
 # gundam-search
 
-A web scraping program that checks four local Canadian hobby stores (Panda Hobby, Canadian Gundam, Argama Hobby, and Toronto Gundam) simultaneously and displays their information in an easy to digest format. <br>
-Let's say you're looking for a deal on the newest Gunpla release, but have no idea which store offers the cheapest option. Well, look no further. <br>
+A web scraping program that checks four local Canadian hobby stores (Panda Hobby, Canadian Gundam, Argama Hobby, and Toronto Gundam) simultaneously and displays their information in an easy to digest format. <br><br>
+Let's say you're looking for a deal on the newest Gunpla release, but have no idea which store offers the cheapest option. Well, look no further. <br><br>
 Simply enter the name of any item into the search bar, adjust the various filters and settings to your liking, and click the search button. `gundam-search` will scrape the relevant information from the various local hobby stores' websites, and provide that information to you in an easy to read table format.
 
 ## To Use
