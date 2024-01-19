@@ -6,7 +6,7 @@ Simply enter the name of any item into the search bar, adjust the various filter
 
 ## To Use
 
-Download the repository zip file and acess the dist folder, then run gui.py to run the program, or open the folder locally on your IDE of choice and run `pip install requirements.txt` to install the required dependencies locally. Once you have the program running, adjust filters as you see fit and enjoy.
+Download the repository zip file and acess the `dist` folder, then run `gui.exe` to run the program, or open the folder locally on your IDE of choice and run `pip install requirements.txt` to install the required dependencies locally. Once you have the program running, adjust filters as you see fit and enjoy.
 
 ## Tips
 
