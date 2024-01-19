@@ -59,6 +59,7 @@ class SearchWindow(QMainWindow):
                             includeInSearch.append(hobbyStore)
 
             self.search_results_window = SearchResultsWindow()
+            self.search_results_window.setWindowTitle("Search Results")
             self.pushButton.setEnabled(False)
             self.search_results_window.setSearchWindow(self)
             self.search_results_window.searchGundams(self.lineEdit.text(), self.spinBox.value(), includeInSearch)
@@ -144,6 +145,7 @@ class SearchResultsWindow(QMainWindow):
         # Use the existing MoreInfoWindow if it exists
         if self.more_info_window is None:
             self.more_info_window = MoreInfoWindow()
+            self.more_info_window.setWindowTitle("More Information")
 
         # Disconnect the signal before connecting it again
         self.more_info_window.pushButton.disconnect()
@@ -195,6 +197,7 @@ class MoreInfoWindow(QMainWindow):
 def main():
     app = QApplication([])
     search_window = SearchWindow()
+    search_window.setWindowTitle("Gundam Search")
     app.exec_()
 
 if __name__ == '__main__':
